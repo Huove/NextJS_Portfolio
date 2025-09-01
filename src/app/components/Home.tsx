@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spotlight } from './ui/spotlight'
-import { cn } from '../../lib/utils'
+import { cn } from '../../../lib/utils'
 import Button from './ui/button'
 import { TextGenerateEffect as Text } from './ui/text'
 
