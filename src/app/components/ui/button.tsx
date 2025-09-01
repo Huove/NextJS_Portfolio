@@ -1,7 +1,7 @@
 import React from 'react'
 
 const button = ({
-    title, handleclick
+    title
 }: {
     title: string;
     position?: 'left' | 'right';
