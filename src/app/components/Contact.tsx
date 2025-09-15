@@ -10,7 +10,7 @@ const Contact  = () => {
           <input
             id="name"
             type="text"
-            placeholder="Your name"
+            placeholder="Your name" 
             className="mt-1 rounded-xl border px-3 py-2 outline-none focus:ring-2 focus:ring-indigo-500 text-white placeholder-gray-600"
           />
         </div>

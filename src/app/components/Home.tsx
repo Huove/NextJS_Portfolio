@@ -23,16 +23,16 @@ const Home = () => {
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-secondary"></div>
     </div>
 
-    <div className='flex justify-center relative my-20 z-10'>
-        <div className='mx-w-[89vw] items-center flex flex-col justify-center'>
-          <p className=" tracking-widest text-xs text-center text-blue-100 max-w-80">
+    <div className='flex justify-center relative my-20'>
+        <div className='max-w-[89vw] items-center flex flex-col justify-center'>
+          <p className=" tracking-widest text-sm text-center text-blue-100 max-w-80">
             Muhammad Novel, App Developer
           </p>
             <Text 
-            className='text-center text-[40px]'
+            className='text-[40px]'
             words='Hi, welcome to My Portfolio'
             />
-            <div className='mt-6 flex justify-center'>
+            <div className='mt-6'>
               <a href='#about'>
               <Button 
               title='Eksplore my Portfolio'

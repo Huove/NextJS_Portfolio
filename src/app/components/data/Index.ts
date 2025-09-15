@@ -4,7 +4,6 @@ export const projectItems = [
     title: "Waifu or Husbando index",
     description: "",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
     img: "/project.png",
   },
   {
@@ -12,7 +11,6 @@ export const projectItems = [
     title: "Portfolio Website",
     description: "Web ini adalah project yang dimaksud",
     imgClassName: "",
-    titleClassName: "justify-start",
     img: "/website.jpg",
   },
   {
@@ -20,7 +18,6 @@ export const projectItems = [
     title: "Gojek UI",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-center",
     img: "/gojekUI.png",
   }
 ];
@@ -31,7 +28,6 @@ export const skillItems = [
     title: "Bisa Menggambar (Anime Char)",
     description: "",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
     img: "/pg.jpg",
   },
   {
@@ -39,7 +35,6 @@ export const skillItems = [
     title: "Bisa mengetik di keyborad dengan cepat",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-start",
     img: "/david.jpg",
   },
   {
@@ -47,7 +42,6 @@ export const skillItems = [
     title: "dasar dasar coding",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-center",
     img: "/coding.jpg",
   },
   {
@@ -55,7 +49,6 @@ export const skillItems = [
     title: "Adaptasi",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-start",
     img: "/adaptasi.jpg",
   },
 
@@ -64,7 +57,6 @@ export const skillItems = [
     title: "Menulis dengan tangan kiri",
     description: "jarang orang bisa melakukannya _-",
     imgClassName: "",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/kidal.jpeg",
   },
 ];
@@ -75,7 +67,6 @@ export const hobbyItems = [
     title: "Baca Manga",
     description: "",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
     img: "/manga.jpg",
   },
   {
@@ -83,7 +74,6 @@ export const hobbyItems = [
     title: "Menonton Anime",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-start",
     img: "/anime.png",
   },
   {
@@ -91,7 +81,6 @@ export const hobbyItems = [
     title: "Bermain Game",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-center",
     img: "/haseer.png",
   },
   {
@@ -99,7 +88,6 @@ export const hobbyItems = [
     title: "Mendengarkan Musik",
     description: "",
     imgClassName: "",
-    titleClassName: "justify-center",
     img: "/music.jpg",
   },
 ];
