@@ -14,7 +14,7 @@ export default function Page() {
           navItems={[
             { name: "Home", link: "#" },
             { name: "About", link: "#about" },
-            { name: "More Content", link: "#hobby" },
+            { name: "Content", link: "#hobby" },
             { name: "Contact", link: "#contact" },
             ]} />
         <Home />
