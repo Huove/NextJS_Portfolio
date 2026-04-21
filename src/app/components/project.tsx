@@ -1,24 +1,22 @@
-import React from 'react'
-import BentoGrid, {BentoGridItem} from './ui/bento'
-import { projectItems } from './data/Index'
+import { WorkSpace } from "./data/Index";
+import { ProjectCard } from "./ui/projectcard";
 
-const project = () => {
+const Projects = () => {
   return (
-    <section id="project" className='pt-20'>
-        <h1 className='text-white text-3xl font-bold mb-10 text-center'>Project</h1>
-        <BentoGrid className="max-w-6xl mx-auto gap-12">
-            {projectItems.map(({id ,title, description, img,  imgClassName}) => (
-                <BentoGridItem
-                key={id}
-                title={title}
-                description={description}
-                img={img}
-                imgClassName={imgClassName}
-                />
-            ))}
-        </BentoGrid>
-    </section>
-  )
-}
+    <section id="project" className="py-20 px-6">
+      
+      <h1 className="text-3xl font-bold text-center text-white mb-10">
+        My Projects
+      </h1>
 
-export default project
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        {WorkSpace.map((item, i) => (
+          <ProjectCard key={i} {...item} />
+        ))}
+      </div>
+
+    </section>
+  );
+};
+
+export default Projects;

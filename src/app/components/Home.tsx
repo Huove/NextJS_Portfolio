@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spotlight } from './ui/spotlight'
-import { cn } from '../../../lib/utils'
+import { cn } from "@/lib/utils";
 import Button from './ui/button'
 import { TextGenerateEffect as Text } from './ui/text'
 
@@ -26,7 +26,7 @@ const Home = () => {
     <div className='flex justify-center relative my-20'>
         <div className='max-w-[89vw] items-center flex flex-col justify-center'>
           <p className=" tracking-widest text-sm text-center text-blue-100 max-w-80">
-            Muhammad Novel, App Developer
+            Muhammad Novel, Developer Pemulax
           </p>
             <Text 
             className='text-[40px]'

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from 'react'
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import {SiNextdotjs, SiFlutter, SiTailwindcss, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
+import { AnimatedTooltip } from "./ui/animated-tooltip";
+import { techStack } from "./data/Index";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex justify-center">
           <div className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-2xl border border-gray-700">
             <Image
-              src="/mati_kering.png"
+              src="/port1.jpeg"
               alt="Profile"
               width={256}
               height={256}
@@ -28,16 +28,9 @@ const About = () => {
           
           <div className="space-y-8">
             <div>
-              <h2 className="text-xl font-semibold text-purple-600">I have experience at</h2>
-              <div className="flex flex-wrap items-center gap-5 text-4xl mt-4">
-                <FaReact className="text-blue-400" title="React" />
-                <SiNextdotjs className="text-white" title="Next.js" />
-                <SiFlutter className="text-sky-400" title="Flutter" />
-                <FaNodeJs className="text-green-500" title="Node.js" />
-                <SiTailwindcss className="text-teal-400" title="TailwindCSS" />
-                <SiJavascript className="text-yellow-400" title="JavaScript" />
-                <SiHtml5 className="text-orange-500" title="HTML" />
-                <SiCss3 className="text-blue-500" title="CSS" />
+              <h2 className="text-xl font-semibold text-purple-600 mt-10">I have experience at</h2>
+              <div className="flex flex-wrap items-center gap-6 mt-8">
+                <AnimatedTooltip items={techStack} />
               </div>
             </div>
           </div>
