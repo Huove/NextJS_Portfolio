@@ -90,7 +90,7 @@ export const WorkSpace = [
     title: "Portofolio",
     description: "Website portofolio yang ku buat secara pribadi",
     github: "https://github.com/Huove/NextJS_Portfolio.git",
-    demo: "https://tiny-taffy-fe5117.netlify.app/",
+    demo: "https://portofoliotakano.netlify.app/",
   },
 ];
 
